@@ -1,10 +1,7 @@
 module.exports={
 
     url:'http://edubirdie.com.stageprod/faq',
-    /*commands:{
-        navigate:'http://edubirdie.com.stageprod/faq'
-    }
-    ,*/
+
 
     elements:{
 
@@ -13,10 +10,7 @@ module.exports={
            locateStrategy:'xpath'
 
         },
-        "accordion":{
-            selector: "//div[@data-wrapper]",
-            locateStrategy: 'xpath'
-        } ,
+
 
         "h2active":{
             selector: "//h2[@class='uk-accordion-title uk-active']",
